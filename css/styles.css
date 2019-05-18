@@ -1,0 +1,431 @@
+/* Style the body*/
+body {
+margin: 0;
+font-family: 'Work Sans', sans-serif;
+font-weight: 400; color: #292929;
+max-height: 100%;
+}
+h1, h2, h3 {
+	color: #000;
+}
+
+/* Style the header area*/
+.header {
+	background-color: #fff;
+	height: 85px;
+	max-width: 100%
+}
+
+/* Style the logo*/
+.logo {
+	float: left;
+	margin: 0 auto; 
+}
+
+/* Style the main top navigation bar */
+nav ul {
+	float: right;
+	position:relative;z-index: 99;
+}
+nav ul li {
+	list-style-type: none; text-transform: uppercase; padding-top: 5px;
+	padding-right: 5px; display: inline-block; position: relative;
+}
+nav ul li a {
+	text-decoration: none; color: #fff; background: #006666;
+	height: 40px; width: 120px; line-height: 40px;
+	display: block; text-align: center; border-radius: 3px 3px 3px 3px;
+}
+nav ul li ul {
+	position: absolute;
+	display: none;
+
+}
+nav ul li:hover ul {
+	display: block; left: auto; right: 0;
+	margin-right: -10;
+}
+nav ul li a:hover {
+	background-color: #e55300;
+} 
+
+/*End of Navigation menu*/
+
+
+.banner-img {
+	padding: 0px; max-width: 100%;
+	height: auto; position: relative;
+	background-image: center;
+}
+
+/*Style Home page */
+.hometable {
+	padding-top: 30px; max-height: 100%; max-width: 100%; overflow: hidden;
+}
+.homecontent {
+	padding-left: 50px;
+}
+.welcome {
+	text-align: center;
+}
+.featuredtable {
+	padding-left: 20px;  max-width: 100%; height: 370px;
+}
+.featmenu {
+	text-align: center; text-transform: uppercase; margin-top: 45px;
+}
+.featcontainer {
+	text-align: center;
+}
+.homefeatappetizerpic {
+	background-color: #ff9f00; height: 285px; width: 250px; display: inline-block;
+	margin-right: 60px; border-radius: 3px;
+}
+.homefeatmain {
+	background-color: #ff9f00; height: 285px; width: 250px;  display: inline-block;
+	margin-right: 60px;
+}
+.homefeatdessert {
+	background-color: #ff9f00; height: 285px; width: 250px; display: inline-block;
+	vertical-align: top; margin-right: 60px;
+}
+.homefeatmain2 {
+	background-color: #ff9f00; height: 285px; width: 250px; display: inline-block;
+}
+.homeservices {
+	text-align: center; text-transform: uppercase; max-width: 100%; height: 350px;
+}
+.home_book {
+	display: inline-block; padding-right: 30px; 
+}
+.home_voucher {
+	display: inline-block; padding-left: 30px; 
+}
+
+.Store {
+	padding-left: 25px;
+}
+.storecontent {
+	text-align: left;
+	padding-left: 10px; padding-right: 10px;
+}
+
+.featured_meals {
+	width: 650px; background-color: red;
+	height: 650px; display: inline-block;
+}
+.featmain {
+	width: 650px; height: 650px; background-color: yellow; display: inline-block;
+}
+
+
+	/*Style for About page*/
+.aboutheading {
+	 margin-left: 90px;
+}
+.textabout {
+	max-height: 100%; max-width: 100%; height: 180px;
+	padding-left: 50px; padding-right: 80px; overflow: hidden;
+	background-color: #f2f2f2;
+}
+/*Style for Appetizer menu*/
+
+.appetizerbanner { 
+	padding: 0; max-height: 100%; max-width: 100%; position: relative;
+}
+
+.menuappetizer {
+	padding-left: 90px;	
+}
+#tableappetizer {
+	max-height: 100%; max-width: 100%; overflow: hidden;
+	min-height: 720px; background-color: #f2f2f2;
+}
+.firstcol {
+	float: left; width: 720px; height: 720px; padding-left: 50px;
+}
+.pauapic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;
+}
+.rwfsh {
+	float: left; 
+}
+.rawfishpic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;
+}
+
+.seafood {
+	float: left;
+}
+.seafoodbasketpic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;
+}
+.secondcol {
+	float: right; width: 720px;
+	width: 720px; height: 720px; 
+}
+.coltwo {
+	padding-left: 65px;
+}
+.rewana {
+	float: left;
+}
+.breadpic {
+	float: left; margin-bottom: 35px; margin-right: 15px; border-radius: 5px;
+}
+.Salmon {
+	float: left;
+}
+.PoachedSalmonpic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;
+} /*End of Appetizer Menu*/
+
+
+/*Style for Menu Main*/
+.mainmenu {
+	padding-left: 90px; 
+}
+.maintable {
+	max-height: 100%; max-width: 100%; height: 800px; overflow: hidden;
+	background-color: #f2f2f2;
+}
+.mainfirstcol {
+	float: left; width: 720px; height: 800px; padding-left: 40px;
+}
+.fishdaypic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px;
+}
+.musselscallops {
+	float: left; margin-bottom: 35px; margin-right: 15px; 
+}
+.musselspic {
+	float: left;  border-radius: 5px;
+}
+.seafoodchowder {
+	float: left; 
+}
+.chowderpic {
+	float: left; border-radius: 5px;
+}
+.secondcolumn {
+	float: right; width: 720px; height: 800px; width: 720px; 
+	padding-right: 20px; padding-left: 15px;
+}
+.crispyporkpic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;
+}
+.lambsteak {
+	float: left;
+}
+.lambpic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;
+}
+.venison {
+	float: left;
+}
+.venisonpic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;
+}
+
+
+/*Style for Dessert menu*/
+.menudessert {
+	padding-left: 90px;
+}
+.dessertable {
+	max-height: 100%; max-width: 100%; overflow: hidden; height: 500px;
+	background-color: #f2f2f2;
+}
+.dessert1stcol {
+ width: 720px; height: 500px; float: left; padding-left: 30px;
+}
+.KapitiIceCream {
+	padding-left: 15px;
+}
+.Kapitipic {
+	float: left; margin-bottom: 35px; margin-right: 15px; 
+	border-radius: 5px;	
+}
+.puddingpic {
+	float: left; border-radius: 5px; 
+}
+.steampudding {
+	float: left; padding-left: 15px;
+}
+
+.dessert2ndcol {
+	width: 720px; height: 500px; float: right;
+}
+.pav-lova {
+		float: left;
+}
+.pavlovapic {
+	float: left; margin-bottom: 35px; margin-right: 15px;
+	border-radius: 5px;	
+}
+.banoffeepie {
+	float: left;
+}
+.banoffeepic {
+	float: left; border-radius: 5px; 
+}
+.bontext {
+	float: right; padding-left: 15px;
+}
+
+
+/*Style for Beverage page*/
+.beveragemenu {
+	padding-left: 90px;
+}
+.beveragetable {
+	max-height: 100%; max-width: 100%; overflow: hidden; height: 1250px;
+	background-color: #f2f2f2;
+}
+.firstcolbeverage {
+ float: left; padding-left: 70px;
+}
+.red-wine {
+	padding-left: 15px;  text-align: justify;
+}
+.redwinepic {
+	box-sizing: border-box; margin-top: 10px; border-radius: 8px 8px 8px 8px;
+}
+.white {
+	float: left; padding-right: 15px; text-align: justify;
+}
+.whitewinepic {
+	box-sizing: border-box; 
+	 margin-top: 50px;
+	 border-radius: 8px 8px 8px 8px;
+}
+.secondcolbeverage {
+	float: right; padding-right: 70px;
+
+}
+.Beercidarpic {
+ margin-top: 10px; box-sizing: border-box; border-radius: 8px 8px 8px 8px;
+}
+
+.water {
+ margin-top: 50px; box-sizing: border-box;
+ border-radius: 8px 8px 8px 8px;	
+}
+
+
+
+/* Style Book page (Online booking)*/
+.booknow {
+	padding-left: 90px;
+}
+.onlinebookingtable {
+	background-color: #f2f2f2; max-width: 100%; max-height: 100%;
+	overflow: hidden; height: 1400px;
+}
+
+.forframe {
+	float: left; width: 640px; height: 1483px; 
+	padding-left: 50px; padding-top: 10px;
+}
+.secondcolbookpage {
+	float: right; width: 640px; height: 1400px; padding-right: 50px;
+}
+.h3appbook {
+	padding-left: 25px;
+}
+.appetizerbook {
+	width: 625px; height: 200px; border-radius: 8px;
+}
+.mainbooknow {
+	width: 625px; height: 200px; border-radius: 8px;	
+}
+.dessertbooknow {
+	width: 625px; height: 200px; border-radius: 8px;	
+}
+.beveragebook {
+	width: 625px; height: 200px; border-radius: 8px;	
+}
+
+.voucher {
+	background-color: #f2f2f2; max-height:100% max-width: 100%; 
+}
+.vouchertext {
+	padding-left: 90px; 
+}
+.purchase {
+	padding-left: 50px;
+}
+
+/*Style for Contact page*/
+.contactable {
+	overflow: hidden;
+	max-width: 100%;
+
+}
+.contacus {
+	padding-left: 90px;
+}
+.map {
+	float: right;
+	width: 720px;
+	max-width: 100%;
+}
+.contactform {
+	float: left;
+	width: 720px;
+	max-height: 100%;
+	padding-left: 50px;
+}
+
+
+/*Style for Hours page*/
+.Hours {
+	padding-left: 90px;
+}
+
+
+/*Style for Calendar page*/
+.calendar {
+	padding-left: 50px;
+}
+
+
+/*Style for Privacy page*/
+.Privacytab {
+	max-width: 100% max-height:100%; background-color: #f2f2f2;
+	padding-left: 40px; padding-right: 40px;
+}
+.privacy {
+	padding-left: 90px;
+}
+.privacypol {
+	padding-left: 50px;
+}
+
+/*Style for footer*/
+.footercontainer {
+	background-color: #333; max-width: 100%; height: 80px;
+	margin: 0 auto; padding-top: 10px;
+}
+.copyrightext {
+	color: #ccccff; float: left; padding-top: 15px; padding-left: 35px;
+}
+.footerlinks {
+	float: right; list-style-type: none; padding-right: 95px; padding-top: 15px;
+}
+
+.footerlinks li {
+	display: inline-block; padding-left: 20px; 
+}
+.footerlinks li a {
+	text-decoration: none; color: #ccccff; text-transform: uppercase;
+}
+
